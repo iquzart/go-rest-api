@@ -2,7 +2,7 @@ package router
 
 import (
 	"github.com/gin-gonic/gin"
-	"github.com/iquzart/go-rest-api/api/v1/controller"
+	"github.com/iquzart/go-rest-api/api/controller"
 )
 
 // InitRouter initialize routing information

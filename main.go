@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/iquzart/go-rest-api/api/v1/router"
+	"github.com/iquzart/go-rest-api/api/router"
 )
 
 func main() {
