@@ -13,8 +13,8 @@ func InitRouter() *gin.Engine {
 	v1 := r.Group("/v1")
 	{
 		v1.GET("/", controller.Home)
-		v1.POST("/", controller.PostHome)
-		v1.GET("/query", controller.QueryString)
+		v1.POST("/postjson", controller.PostHome)
+		v1.GET("/querystring", controller.QueryString)
 		v1.GET("/path/:name/:age", controller.PathParameters)
 
 	}
